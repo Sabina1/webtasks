@@ -1,0 +1,10 @@
+https://github.com/Sabina1/webtasks.git
+
+…or create a new repository on the command line
+
+echo "# webtasks" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Sabina1/webtasks.git
+git push -u origin master
