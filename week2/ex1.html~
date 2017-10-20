@@ -1,0 +1,31 @@
+<html>
+<head>
+<style>
+
+/*div.menu {
+background-color: grey;
+}*/
+
+a {
+  color: yellow;
+  border: 1px solid red;
+  background-color: red;
+  border-radius: 6px; 
+  padding: 5px;
+  text-decoration: none;
+  display: inline-block;
+width: 80px;
+height: 15px;
+margin: 5px;
+}
+</style>
+</head>
+
+<body>
+<div class="menu">
+  <a href="home.html"> Home </a>
+  <a href="about.html"> About </a>
+  <a href="contacts.html"> Contacts </a>
+</div>
+</body>
+</html>	

@@ -1,0 +1,54 @@
+<html>
+<head>
+<style>
+/* Write your code here */
+h1 { 
+font-weight: bold;
+color: green;	
+}
+
+div.article{
+font-size: 75%;
+}
+
+ul{
+  border: 1px solid red;
+  border-radius: 10px; 
+  padding: 20px;
+  width: 200px;
+  height: 50px;
+}
+
+a{ 	
+text-decoration: none;
+font-size: 120%;
+color:blue;
+}
+
+.retake a{
+color:red;
+}
+
+span {
+color: red;
+}
+
+
+</style>
+</head>
+<body>
+<h1>Admission leter</h1>
+<div class="article">
+Hello <span class="person">Mr. Jones</span><br/>
+Below are lessons that you are supposed to study
+</div>
+<div class="list">
+  <ul>
+    <li><a href="#">Java</a></li>
+    <li><a href="#">Math</a></li>
+    <li class="retake"><a href="#">Linear Algebra</a></li>
+  </ul>
+</div>
+<a href="mailto:admission@sdu.edu.kz">Contact us</a>
+</body>
+</html>
